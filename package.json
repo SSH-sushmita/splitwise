@@ -1,0 +1,29 @@
+{
+  "name": "splitwise",
+  "version": "1.0.0",
+  "description": "splitwise api server",
+  "main": "index.js",
+  "engines": {
+    "npm": ">=8.15.0",
+    "node": ">=16.17.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SSH-sushmita/splitwise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SSH-sushmita/splitwise/issues"
+  },
+  "homepage": "https://github.com/SSH-sushmita/splitwise#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "jest": "^29.0.3",
+    "mysql2": "^2.3.3",
+    "save-dev": "^0.0.1-security"
+  }
+}
