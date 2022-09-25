@@ -1,0 +1,35 @@
+{
+    "routes" :
+    [
+        {
+            "method"    : "post",
+            "path"      : "/v1/user",
+            "module"    : "./lib/handler/v1/user"
+        },
+        {
+            "method"    : "post",
+            "path"      : "/v1/group",
+            "module"    : "./lib/handler/v1/group"
+        },
+        {
+            "method"    : "post",
+            "path"      : "/v1/group/:groupId",
+            "module"    : "./lib/handler/v1/groupUser"
+        },
+        {
+            "method"    : "post",
+            "path"      : "/v1/expense",
+            "module"    : "./lib/handler/v1/expense"
+        },
+        {
+            "method"    : "post",
+            "path"      : "/v1/expense/:expenseId",
+            "module"    : "./lib/handler/v1/expense"
+        },
+        {
+            "method"    : "get",
+            "path"      : "/v1/transaction/:userId",
+            "module"    : "./lib/handler/v1/transaction"
+        }
+    ]
+}        
